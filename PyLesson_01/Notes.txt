@@ -1,0 +1,20 @@
+Notes On Programming
+
+
+Programing is made up of a set of words, symbols, and expressions, as well as a set of rules that defines how we use these expressions to communicate
+
+Python is a programming language created by Guido van Rossum in the Netherlands in the late 1980s
+
+There are two types of languages, interpreted and compiled languages
+
+Every programming language has a different mechanism for translating the assembly code or source code that is written into a machine code that the machine’s processor can execute. 
+
+Python has some of the characteristics of both compiled and interpreted languages
+
+Languages like C use a compiler that translates all of the source code into machine code before it can be run. These are called compiled languages. The advantage of these languages is that they can run faster for certain tasks.
+
+The program being created is “firstProg.py”
+
+Python turns the source code into bytecode
+
+Programs are just text files
