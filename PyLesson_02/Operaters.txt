@@ -1,0 +1,25 @@
+Fill in the descriptions below for each operator. You can use this in the future as a reference guide to help you with your labs. 
+
+
++
+Addition of numbers or strings.
+
+-
+Subtraction.
+
+*
+Multiplication.
+
+/
+Division.
+
+%
+Used to find the remainder of division.
+
+**
+Used for exponents.
+
+//
+Floor Division.
+
+

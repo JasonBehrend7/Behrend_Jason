@@ -1,0 +1,17 @@
+Python Data Types
+After learning about variable initialization and assignment, you should be aware that data types are serious business.
+They can determine the success or failure of your project. Therefore, you should know them extremely well.
+This document should serve as a quick reference guide for the data types we will be using most often in this class. 
+Research each of the terms below and write their definitions in the boxes below
+ 
+str : Strings are data types that hold text.
+
+Integer: Integers are positive or negative whole numbers.
+
+Float: Floats are positive or negative decimals.
+
+list: A list of all the same data types (all strings or all Ints)
+
+tuple:  Tuples are lists that can not be changed.
+
+
