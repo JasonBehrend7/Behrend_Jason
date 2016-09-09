@@ -1,7 +1,9 @@
-name = "Main Street"
+name = "Jason Behrend"
+streetName = "Main Street"
 address = 1234
 city = "San Diego, CA"
 zip = 92130
+addressLine = "Adress Line 1"
 
 length = 7
 width = 4
@@ -15,7 +17,12 @@ h = 3
 l = 5
 a = 2*(w*l+h*l+h*w)
 
-print ("I live at",address, name, city, zip)
+print ("This is my address label:")
+print ("")
+print (name)
+print (address, streetName)
+print (city, zip)
+print (addressLine)
 print ("")
 print ("The area of the first rectangle is", area)
 print ("The area of the second rectangle is", area2)
