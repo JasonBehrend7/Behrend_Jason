@@ -1,0 +1,10 @@
+Notes on User Input
+
+For variables with more than one word in it, the second and following words should start with a capital letter (firstName not firstname)
+Lower case words are easy to read than upper case words
+Underscores can be used as spaces between words in a multi-word name
+Function calls should end with parenthesis, functionName()
+One very important built in function is the input() function
+Taking user input is easy, this is a prompt on how to get it, variableName = input(“write in text here”), the input it gets are strings
+variableName from before will be equal to what the users type
+Casting allows us to take one kind of data and turn it into a different desired data type
