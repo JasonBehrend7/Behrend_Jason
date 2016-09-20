@@ -1,13 +1,12 @@
+
 def reciept(item, price, item2, price2, item3, price3, subtotal, tax, total):
     print("<<<<<<<<<<<<<<<__Receipt__>>>>>>>>>>>>>>>>")
     print("""
-
     """)
     print("* \t{:>10} ............. {:10.2f}".format(item, price))
     print("* \t{:>10} ............. {:10.2f}".format(item2, price2))
     print("* \t{:>10} ............. {:10.2f}".format(item3, price3))
     print("""
-
     """)
     print("* \t{:>10} ............. {:10.2f}".format("Subtotal:", subtotal))
     print("* \t{:>10} ............. {:10.2f}".format("Tax:", tax))
