@@ -1,4 +1,3 @@
-
 print ("Hi, my job is to compliment everything you do in the nicest way.")
 
 name = input("What's your name? ")
@@ -17,5 +16,7 @@ print ("")
 siblings = input("Sorry " + music + " is kinda my trigger. How many siblings do you have? ")
 print (siblings + "?! What is your family a freak show?")
 print ("")
-growUp = input("OK last chance for you not to be a loser. What do you want to be when you grow up?")
+growUp = input("OK last chance for you not to be a loser. What do you want to be when you grow up? ")
 print (growUp + "? Seriously? I'm out, you are a complete loser")
+print ("")
+print ("YA!!! How do you feel about that ROAST! I JUST ROASTED YOU!")
