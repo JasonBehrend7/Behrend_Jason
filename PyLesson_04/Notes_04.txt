@@ -1,0 +1,69 @@
+
+{:<10}
+When do you use it? When you want to align text to the left.
+
+
+How does it work? It takes text and puts it as left as it can and it makes the remaining characters(out of ten) spaces
+
+
+Provide examples: print(“{:<10}”.format(“Jason”))
+It would print “Jason     ” (5 spaces after Jason)
+{:>10}
+When do you use it? When you want to align text to the right.
+
+
+How does it work? It takes text and puts it as right as it can and if there is less than 10 characters the remaining would turn into spaces before the text
+
+
+Provide examples: print(“{:>10}”.format(“Jason”))
+It would print “     Jason” (5 spaces before it)
+{:^10}
+When do you use it? When you want to align text in the middle
+
+
+How does it work? It takes text and puts it in the middle of spaces.
+
+
+Provide examples:  print(“{:^10}”.format(“Word”))
+It would print “   Word   “ (3 spaces before and after
+{:10.2f}
+When do you use it? When you only want to have a certain amount of decimals in a float, like in money
+
+
+How does it work? It takes a number and it is limited to 2 decimals.
+
+
+Provide examples:  print(“{:10.2f}”.format(12345.67890))
+It would print “12345.68
+
+
+___________________________________________________________________________________________________________
+
+
+
+Functions are a way of organizing programs into smaller blocks of code with more specialized tasks.
+
+
+Programs are almost never one big block of code.
+
+
+def functionName(parameters):
+	Code indented in functions
+
+
+^^ Thats how to define a function 
+
+
+The parameters inside the parenthesis are values needed to do the function, they are given to the function when it is called
+
+
+Ex: functionName(“Jason”, 7)
+
+
+If there are no parameters, the parentheses are empty
+
+
+Ex: functionName()
+
+
+^^ That is also how to call the function
