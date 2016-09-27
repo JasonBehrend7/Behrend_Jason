@@ -4,10 +4,10 @@ height = int(input("Type in the height of the rectangle: "))
 
 def calcPerim(width, length, height):
     perimeter = (4*(length + width + height))
-    return("{:0.5f}".format(perimeter))
+    return perimeter
 
-def Print():
-    print("Your rectangle is", calcPerim(width, length, height), "square feet around")
+def Print(perim):
+    print("Your rectangle is", perim, "square feet around")
 
-Print()
+Print(calcPerim(width, length, height))
 
