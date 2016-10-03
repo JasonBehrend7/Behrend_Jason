@@ -3,7 +3,7 @@ streetName = "Main Street"
 address = 1234
 city = "San Diego, CA"
 zip = 92130
-addressLine = "Adress Line 1"
+addressLine = "Address Line 1"
 
 length = 7
 width = 4
