@@ -1,4 +1,3 @@
-
 num = int(input("Type in a number here: "))
 num2 = int(input("Type in a second number here: "))
 num3 = int(input("Type in a third number here: "))
