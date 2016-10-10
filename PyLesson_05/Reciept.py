@@ -1,5 +1,3 @@
-
-
 item = input("Please enter the first item here: ")
 price = float(input("Please enter the price: $"))
 item2 = input("Please enter the second item here: ")
@@ -11,8 +9,7 @@ price4 = float(input("Please enter the price: $"))
 
 subtotal = price + price2 + price3 + price4
 discount = 0
-Discountp = ".
-0%*"
+Discountp = ".0%*"
 total = 0
 
 def Discount():
