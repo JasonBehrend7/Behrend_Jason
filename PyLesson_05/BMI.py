@@ -1,5 +1,6 @@
-height = int(input("Please enter your height in inches here: "))
-weight = int(input("Please enter your weight here: "))
+
+height = float(input("Please enter your height in inches here: "))
+weight = float(input("Please enter your weight here: "))
 bmi = (weight / (height * height)) * 703
 
 def calcBMI():
