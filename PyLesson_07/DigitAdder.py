@@ -6,4 +6,4 @@ while num > 0:
     sum += (num%10)
     num = int(num/10)
 
-print("The sum of the digits in", number, "is", sum)
+print("The sum of the digits in the number", number, "is", sum)
