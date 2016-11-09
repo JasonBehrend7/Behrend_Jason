@@ -2,7 +2,7 @@ word = input("Please enter a word here: ")
 stop = len(word)
 
 def tree(word, start, stop):
-    space = " " * int(stop - start/2)
+    space = " " * (stop - start)
     if start <= stop:
         print(space + word[0:start])
         start += 1

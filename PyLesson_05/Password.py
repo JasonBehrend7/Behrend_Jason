@@ -1,5 +1,5 @@
-username = input("Insert your username here: ")
-password = input("Insert your password here: ")
+username = "username"
+password = "password"
 
 def passCheck(): 
     u = input("To log on, insert your username: ")
