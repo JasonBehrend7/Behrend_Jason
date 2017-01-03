@@ -5,8 +5,8 @@ xAndO = []
 for i in range(0,4):
     xAndO.append([])
     for j in range(0,4):
-        switch = random.randrange(1, 101)
-        if switch == i:
+        switch = random.randrange(0, 2)
+        if switch == 1:
             xAndO[i].append("X")
         else:
             xAndO[i].append("O")

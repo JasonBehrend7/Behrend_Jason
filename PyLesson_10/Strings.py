@@ -1,4 +1,4 @@
-go = input("Please enter a sentence: ")
+go = input("Please enter 16 strings(words): ")
 
 spList = go.split(" ")
 wordsList = []
