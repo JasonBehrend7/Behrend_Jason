@@ -30,6 +30,6 @@ def main():
 
     speed = MilesPerHour(distance, hours, minutes)
 
-    print(speed.getDistance(), "miles in", speed.getHours(), "and", speed.getMinutes(), "minutes =", speed.getMPH(), "mph.")
+    print(speed.getDistance(), "miles in", speed.getHours(), "miles and", speed.getMinutes(), "minutes =", speed.getMPH(), "mph.")
 
 main()
