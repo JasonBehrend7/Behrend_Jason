@@ -9,9 +9,9 @@ class item:
 
     def __str__(self):
         if self.price != "":
-            return "Item info:\nName: \t \t" + self.name + "\nManufacturer: \t" + self.manufacturer + "\nPrice: \t \t" + self.price + "\nCategory: \t" + self.category + "\nUPC#: \t \t" + self.UPC
+            return "\nItem info:\nName: \t \t" + self.name + "\nManufacturer: \t" + self.manufacturer + "\nPrice: \t \t$" + self.price + "\nCategory: \t" + self.category + "\nUPC#: \t \t" + self.UPC
         else:
-            return "Item info:\nName: \t \t" + self.name + "\nManufacturer: \t" + self.manufacturer + "\nPrice: \t \t" + "None yet" + "\nCategory: \t" + "None yet" + "\nUPC#: \t \t" + self.UPC
+            return "\nItem info:\nName: \t \t" + self.name + "\nManufacturer: \t" + self.manufacturer + "\nPrice: \t \t" + "None yet" + "\nCategory: \t" + "None yet" + "\nUPC#: \t \t" + self.UPC
 
 def main():
     name = input("Enter the name of the item: ")
@@ -19,7 +19,7 @@ def main():
     question = input("Will you be entering the price and category(Y or N)? ")
     
     if question == "Y":
-        price = input("Enter the price of this item: ")
+        price = input("Enter the price of this item: $")
         cat = input("Enter the category of this item: ")
         item1 = item(man, name, cat, price)
 
