@@ -11,7 +11,7 @@ class item:
         if self.price != "":
             return "\nItem info:\nName: \t \t" + self.name + "\nManufacturer: \t" + self.manufacturer + "\nPrice: \t \t$" + self.price + "\nCategory: \t" + self.category + "\nUPC#: \t \t" + self.UPC
         else:
-            return "\nItem info:\nName: \t \t" + self.name + "\nManufacturer: \t" + self.manufacturer + "\nPrice: \t \t" + "None yet" + "\nCategory: \t" + "None yet" + "\nUPC#: \t \t" + self.UPC
+            return "\nItem info:\nName: \t \t" + self.name + "\nManufacturer: \t" + self.manufacturer + "\nPrice: \t \tNone yet \nCategory: \tNone yet \nUPC#: \t \t" + self.UPC
 
 def main():
     name = input("Enter the name of the item: ")
