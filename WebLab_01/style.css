@@ -1,0 +1,41 @@
+body{
+	background-color: #b3e2de;
+	font-family: arial;
+}
+		
+h1{
+	text-align: center;
+	color: #0c99b2;
+	background-color: white;
+	font-family: times new roman;
+	padding: 20px;
+			
+	border-color: #0c99b2;
+	border-style: solid;
+	border-width: 2px;
+}
+		
+p{
+	color: #0c99b2;
+	background-color: white;
+	font-family: arial;
+	padding: 5px;
+	width: 33%;
+			
+	margin: 20px;
+	border-color: #0c99b2;
+	border-style: solid;
+	border-width: 2px;
+}
+			
+::selection {
+	color: red; 
+	background: yellow;
+}
+		
+a:link{color: #1074b7;}
+a:visited{color: #6b6b6b;}
+a:hover{
+color: #bd5bff;
+text-decoration: none;
+}
