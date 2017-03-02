@@ -1,0 +1,33 @@
+body{
+	background-color: gray;
+	color: white;
+}
+
+aside{
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+	width: 100px;
+	height: 50%;
+	padding: 30px 10px 30px 10px;
+	position: fixed;
+	left: 10px;
+	top: 250px
+}
+
+nav{
+	background-color: black;
+	width: 100%;
+	color: white;
+	border: 2px solid black;
+}
+
+h1{
+	text-align: center;
+}
+
+article{
+	width: 500px;
+	padding-left: 200px;
+	color: black;
+}
