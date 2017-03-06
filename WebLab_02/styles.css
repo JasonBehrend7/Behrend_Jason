@@ -20,6 +20,11 @@ td{
 	border-color: black;
 	background-color: #aae8ff;
 }
+
+img{
+	max-height: 200px;
+	max-width: 200px;
+}
 		
 td:not(.header){
 	color: blue;
