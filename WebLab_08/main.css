@@ -31,3 +31,9 @@ article{
 	padding-left: 200px;
 	color: black;
 }
+
+#topMenu li {
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px tahoma;
