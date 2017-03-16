@@ -5,9 +5,10 @@ body{
 		
 table{
 	color: #878599;
-	border: 3px;
+	border: 5px;
 	border-style: solid;
 	border-color: black;
+	background-color: #85eaf2;
 }
 		
 tr{
