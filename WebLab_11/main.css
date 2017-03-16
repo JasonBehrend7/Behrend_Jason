@@ -22,6 +22,16 @@ body{
 	background-color: #d1cfcf;
 }
 
+article{
+	background-color: white;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+article>footer{
+	text-align: right;
+}
+
 #bigWrapper{
 	max-width: 1000px;
 	margin: 20px 0px;
