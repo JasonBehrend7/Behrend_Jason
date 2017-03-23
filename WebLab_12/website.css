@@ -1,0 +1,118 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font: bold 20px Tahoma;
+}
+
+h2{
+	font: bold 17px times new roman;
+}
+
+header, section, footer, aside, nav, article{
+	display: block;
+}
+
+body{
+	text-align: center;
+}
+
+#bigWrapper{
+	border: 2px solid gray;
+	width: 1000px;
+	margin: 20px auto;
+	text-align: left;
+	background: -webkit-linear-gradient(135deg, red, orange, yellow);
+	color: black;
+}
+
+#topHeader{
+	background: -webkit-linear-gradient(-45deg, red 5%, orange, yellow, green, blue, purple 90%);
+	border: 2px solid white;
+	padding: 20px;
+	font-family: Century Gothic;
+	-webkit-transition: -webkit-transform 1s;
+}
+
+#topHeader:hover{
+	-webkit-transform: scale(1.1);
+}
+
+#topMenu{
+	background-color: white;
+	color: gray;
+	background: white;
+}
+
+#topMenu li {
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px tahoma;
+	-webkit-border-radius: 3px;
+	background: white;
+	-webkit-transition: -webkit-transform 0.1s;
+}
+
+#topMenu li:hover{
+	-webkit-transform: scale(1.2);
+	color: blue;
+}
+
+#mainSection  {
+	float: left;
+	width: 660px;
+	margin: 30px;
+}
+
+#sideNews{
+	float: left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: #bababa;
+	-webkit-transform: skew(-10deg) scale(0.9);
+	-webkit-transition: -webkit-transform 0.3s;
+}
+
+#sideNews:hover{
+	-webkit-transform: skew(0deg);
+}
+
+#pageFooter{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid white;
+	-webkit-transition: -webkit-transform .5s;
+}
+
+#pageFooter:hover{
+	-webkit-transform: scale(1.2)
+}
+
+article{
+	background-color: white;
+	border: 1px solid black;
+	padding: 20px;
+	margin-bottom: 20px;
+	-webkit-box-shadow: rgb(110, 110, 110) 5px 5px 3px;
+	-webkit-transition: -webkit-transform 0.5s;
+}
+
+article:hover{
+	-webkit-transform: scale(1.1)
+}
+
+article>footer{
+	text-align: right;
+	-webkit-transition: -webkit-transform 0.1s;
+}
+
+article>footer:hover{
+	-webkit-transform: skew(10deg);
+	font: italic 20px Century Gothic;
+	text-shadow: black 1px 1px 3px;
+}

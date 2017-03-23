@@ -1,0 +1,42 @@
+body{
+	text-align: center;
+}
+
+#box{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 3px solid red;
+	background: -webkit-linear-gradient(135deg, red 0%, orange 30%, yellow 100%);
+	-webkit-border-radius: 15px;
+	-webkit-box-shadow: rgba(110, 110, 110, .5) 10px 10px 3px;
+}
+
+#text{
+	font: bold 30px Century Gothic;
+	text-shadow: rgb(40, 40, 40) 1px 1px 1px;
+}
+
+#button{
+	font-size: 30px;
+	display: block;
+	margin: 150px auto;
+	color: white;
+	background: -webkit-linear-gradient(bottom, black, white);
+	width: 180px;
+	height: 80px;
+	-webkit-border-radius: 15px;
+	-webkit-box-shadow: rgba(110, 110, 110, .5) 5px 5px 3px;
+	-webkit-transition: -webkit-transform .1s;
+}
+
+#paragraph{
+	padding: 20px;
+	text-shadow: black 1px 1px 3px;
+}
+
+#button:hover{
+	-webkit-transform: scale(1.2) skew(20deg);
+}
