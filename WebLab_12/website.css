@@ -108,11 +108,11 @@ article:hover{
 
 article>footer{
 	text-align: right;
-	-webkit-transition: -webkit-transform 0.1s;
+	-webkit-transition: -webkit-transform 0.5s;
 }
 
 article>footer:hover{
-	-webkit-transform: skew(10deg);
-	font: italic 20px Century Gothic;
+	-webkit-transform: skew(10deg) scale(1.3) translate(-60px, 0px);
+	font-family: Century Gothic;
 	text-shadow: black 1px 1px 3px;
 }
