@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Jason Behrend</title>
+	</head>
+	
+	<body>
+		
+		<form>
+			Height: <input type = "text" size = 5 maxlength = 5 id = "height" value = "in inches"/>
+			<br/>
+			<br/>
+			Weight: <input type = "text" size = 5 maxlength = 5 id = "weight" value = "in pounds"/>
+			<br/>
+			<br/>
+			<input type = "button" value = "Calculate BMI" onclick = "calc()"/>
+		</form>
+		
+		<script type = "text/javascript">
+			function calc() {
+				var h = document.getElementById("height").value;
+				var w = document.getElementById("weight").value;
+				document.write("Your BMI is " + (703*(w/(h*h))));
+			}
+		</script>
+	</body>
+</html>

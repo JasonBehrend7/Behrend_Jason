@@ -72,6 +72,7 @@ body{
 	width: 220px;
 	margin: 20px 0px;
 	padding: 30px;
+	-webkit-border-radius: 25px;
 	background: #bababa;
 	-webkit-transform: skew(-10deg) scale(0.9);
 	-webkit-transition: -webkit-transform 0.3s;
@@ -98,6 +99,7 @@ article{
 	border: 1px solid black;
 	padding: 20px;
 	margin-bottom: 20px;
+	-webkit-border-radius: 25px;
 	-webkit-box-shadow: rgb(110, 110, 110) 5px 5px 3px;
 	-webkit-transition: -webkit-transform 0.5s;
 }
