@@ -1,0 +1,38 @@
+body{
+	background-color: #b3e2de;
+	font-family: arial;
+}
+		
+table{
+	color: #878599;
+	border: 5px;
+	border-style: solid;
+	border-color: black;
+	background-color: #85eaf2;
+}
+
+tr{
+	background-color: #5bc5ef;
+}
+		
+td{
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	background-color: #aae8ff;
+}
+
+img{
+	max-height: 200px;
+	max-width: 200px;
+}
+
+ul{
+	border:2px solid black;
+	background-color: white;
+	list-style-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJygfLT0tMTU3Ojo6Iys/RD80QzQ5OjcBCgoKDQwNGg8PGjclHyU3Ny83NzcvNzc3NzcuNzc3MTcxODc3Nzc3Nys3Nzc3NSwtNTU0NzUtMjAyKzctLy01N//AABEIABsAGwMBEQACEQEDEQH/xAAZAAACAwEAAAAAAAAAAAAAAAAFBwIDBgT/xAApEAACAQMDAwIHAQAAAAAAAAABAgMABBEFBiESMUEiURQVUmFxkaET/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAMFBAIG/8QAJhEAAgIBAgQHAQAAAAAAAAAAAQIAAwQREiEiMXETQVFhgcHwBf/aAAwDAQACEQMRAD8AcWranFp0BeQ8ngKO5NcWWLWu5py7hBqZl5Ny3rOSv+ajwME4/tTTnvrwAmM5R8hCmjbh+JlEFyAsh7EdmrVj5Qt5TwMfVeH4HrNEDkZrXHzBb4uGS+hUk4w2B+qmf0mIC/Mn57FQsqt9OtVtvmc12sunogJC8Oz/AEY8c1mWlAviltV+/SJVF2+ITqv7hBTam9zfxS4VMOoRE4CjPAFKrtLXKfcRSXFrV7xn2zsbeMnuRXoZbgLd+hnUrfqi4lXlTSMihbk2mJvpFybTF3LY6pB1QNBL0luVU+kn3qK2DkrygajvIrYWSvKBqO8PbW25dTXSXF4nQqHKoff71uw8E1nfZ1m7DwjWd9nWMmNAiBR4FU5SkiARzRCc8lvCWyY1J/FEJdGioPSoFEJOiE//2Q==")
+}
+
+div{
+	color: gray;
+}
