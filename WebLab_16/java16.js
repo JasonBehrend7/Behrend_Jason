@@ -8,12 +8,12 @@ function mouse()
 
 function icon(e) 
 {
-	canvas.clearRect(0, 0, 600, 600);
+	canvas.clearRect(0, 0, 925, 925);
 	var xpos = e.clientX;
 	var ypos = e.clientY;
 	
 	var pic = new Image();
-	pic.src = "http://images.eastbay.com/pi/18765/large/diamond-dol-a-official-league-baseball";
+	pic.src = "https://d30y9cdsu7xlg0.cloudfront.net/png/42540-200.png";
 	
 	canvas.drawImage(pic, xpos - 100, ypos - 100, 200, 200);
 }
