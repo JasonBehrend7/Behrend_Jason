@@ -1,0 +1,19 @@
+#leftBox{
+	float: left;
+	width: 250px;
+	height: 250px;
+	margin: 5px;
+	border: 3px solid blue;
+}
+
+#rightBox{
+	float: right;
+	width: 250px;
+	height: 250px;
+	margin: 5px;
+	border: 3px solid purple;
+}
+
+#fox{
+	max-height: 100px;
+}
